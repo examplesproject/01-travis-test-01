@@ -1,0 +1,33 @@
+to start a git repo locally:
+git init
+
+to add files to git:
+git add . 
+
+to commit files:
+git commit -m "put a title here
+>
+> put a message here"
+
+NB: you can press enter when the speech quotes are open and it will add line breaks..
+
+to sort with github, create a new repo on github.. follow instructions there, something like:
+git remote add origin https://github.com/examplesproject/01-travis-ci-test.git
+git push -u origin master
+
+i set the wrong location for git, as i want to use ssh and not https.. to change use:
+(git remote set-url origin git@github.com:<Username>/<Project>.git)
+git remote set-url origin git@github.com:examplesproject/01-travis-ci-test.git
+
+(from: http://stackoverflow.com/questions/14762034/push-to-github-without-password-using-ssh-key)
+
+you cannot use the same ssh key on a github account, as one you already use elsewhere!
+create a new key using
+
+ssh-keygen -t rsa -b 2048 -C "examplesproject-github, created 05nov2013"
+
+where flags.. -t is for type, -b is for bytes and -C is for comment
+location is V:\personal\web\keys
+
+just making a change..
+

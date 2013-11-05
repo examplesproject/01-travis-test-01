@@ -1,0 +1,11 @@
+{
+  "name": "01-travis-ci-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.7.1"
+  },
+  "scripts": {
+    "test": "grunt --verbose"
+  }
+}
