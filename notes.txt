@@ -43,3 +43,4 @@ also make sure the entry under remote.origin.url in ./.git/config is set properl
 
 this is correct because examplesproject-github is an alias set up in ~/.ssh/config to go to github.com with user git and with the right SSH key..
 
+going to push and see if travis ci will build..
