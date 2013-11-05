@@ -37,5 +37,9 @@ to specify it globally do:
 git config --global user.name "<user name>"
 git config --gloabl user.email "<email address>"
 
+also make sure the entry under remote.origin.url in ./.git/config is set properly:
+[remote "origin"]
+  url = examplesproject-github:examplesproject/01-travis-test-01.git
 
+this is correct because examplesproject-github is an alias set up in ~/.ssh/config to go to github.com with user git and with the right SSH key..
 
