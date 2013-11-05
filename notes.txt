@@ -29,5 +29,13 @@ ssh-keygen -t rsa -b 2048 -C "examplesproject-github, created 05nov2013"
 where flags.. -t is for type, -b is for bytes and -C is for comment
 location is V:\personal\web\keys
 
-just making a change..
+by the way, to set up a local user and email for git.. use:
+git config user.name "examplesproject"
+git config user.email "info@examplesproject.org.uk"
+
+to specify it globally do:
+git config --global user.name "<user name>"
+git config --gloabl user.email "<email address>"
+
+
 
